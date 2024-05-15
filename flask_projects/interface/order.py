@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from flask_projects_interface.base import ProjectInterfaceBase
+from flask_projects.interface.base import ProjectInterfaceBase
 
 
 class OrderAbs(ProjectInterfaceBase):

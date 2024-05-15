@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
-from flask_projects_interface.base import ProjectInterfaceBase
-from flask_projects_interface.container import ContainerAbs
+from flask_projects.interface.base import ProjectInterfaceBase
+from flask_projects.interface.container import ContainerAbs
 
 
 class LogicAbs(ProjectInterfaceBase):
